@@ -21,7 +21,7 @@ Pod::Spec.new do |s|
   UIImageView、UIView添加圆角的分类
                        DESC
 
-  s.homepage         = 'https://github.com/gsw1/GSWCategory'
+  s.homepage         = 'https://github.com/gsw1/GSWCategory.git'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'gsw1' => '1037624434@qq.com' }
