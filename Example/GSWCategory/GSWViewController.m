@@ -7,6 +7,7 @@
 //
 
 #import "GSWViewController.h"
+#import <GSWCategory/UIView+corner.h>
 
 @interface GSWViewController ()
 
@@ -17,7 +18,10 @@
 - (void)viewDidLoad
 {
     [super viewDidLoad];
-	// Do any additional setup after loading the view, typically from a nib.
+    
+    UIView *redView = [[UIView alloc] initWithFrame:CGRectMake(10, 98, 100, 100)];
+    [redView addCornerWithRadius:8 corners:UIRectCornerTopLeft backgroundColor:[UIColor redColor] borderColor:[UIColor greenColor] borderWidth:2];
+    [self.view addSubview:redView];
 }
 
 - (void)didReceiveMemoryWarning
